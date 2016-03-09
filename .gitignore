@@ -1,0 +1,9 @@
+vendor
+vendor/*
+vendor/composer
+node_modules
+build/*
+.idea/
+bower_components
+assets/vendor
+index

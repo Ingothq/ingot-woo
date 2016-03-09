@@ -1,0 +1,26 @@
+{
+  "name": "ingot/ingot-woo",
+  "description": "Add WooCommerce support for Ingot",
+  "keywords": [
+    "wordpress", "ingot"
+  ],
+  "type" : "wordpress-plugin",
+  "minimum-stability" : "dev",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Josh Pollock",
+      "homepage": "http://JoshPress.net",
+      "role": "Developer"
+    }
+  ],
+  "repositories" : [
+    {
+      "type" : "git",
+      "url" : "https://github.com/Ingothq/ingot-woo-lib"
+    }
+  ],
+  "require": {
+    "ingot/ingot-woo-lib" : "*"
+  }
+}
